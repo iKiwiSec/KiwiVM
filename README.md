@@ -15,13 +15,45 @@ It is based on the Clang compiler extension and virtualizes specified functions 
 ## Documentation
 You can find the KiwiVM documentation [on the website](https://document.kiwisec.com/en/kiwiVM).  
 
-The documentation is divided into several sections:
+### 1. Obtain
 
-* [Overview](https://document.kiwisec.com/en/kiwiVM/)
-* [KiwiVM For iOS](https://document.kiwisec.com/en/kiwiVM/ios.en.html)
-* [KiwiVM For SO](https://document.kiwisec.com/en/kiwiVM/ndk.en.html)
-* [FAQ](https://document.kiwisec.com/en/kiwiVM/faq.en.html)
+> After purchasing the KiwiVM virtual machine, use the machine code generation tool provided by Kiwisec to extract the Key of the computer to be bound. Kiwisec will generate a unique KiwiVM toolkit based on Key, authorization time and enterprise information.
 
-## Effect analysis
+### 2. Install
+
+>After executing the xcode file, the tool will automatically replace the default compiler of xcode, launch the xcode development tool, and automatically restore the original compiler after exiting.
+![image](./image/vmp1.png)
+
+### 3. Import header file
+>Copy the header file in the include directory into your iOS project and refer to it as needed.
+
+### 4. Add label KIWIVM
+>For functions that require virtualization protection, add the KIWIVM tag to notify the compiler to virtualize compilation. 
+![image](./image/vmp2.png)
+
+### 6. Build
+>Execute the build in the xcode tool
+
+### 7. Uninstall
+>After exiting the xcode tool, KiwiVM's startup script automatically restores the original compiler
+
+
+### 8. Effect analysis
+>This document takes an open source project as an example, links: [https://github.com/comyar/Sol](https://github.com/comyar/Sol)
+
+* **Source Code:**
+
+![image](./image/vm13.jpg)
+
+* **Decompiling raw code:**
+
+![image](./image/vm15.jpg)
+
+* **Decompiled virtualized code:**
+
+
+![image](./image/vm14.jpg)
+
+
 
 [Official website](https://en.kiwisec.com)
