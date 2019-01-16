@@ -1,3 +1,8 @@
+<style>
+ .big-image{
+   width:440px;
+ }
+</style>
 # [KiwiVM](https://en.kiwisec.com/product/vm-android.html)  
 
 KiwiVM is a virtualization encryption software for mobile applications.
@@ -48,7 +53,7 @@ This document takes an open source project as an example, links: [https://github
 * **Decompiling raw code:**
 
 
-<img src="./image/vm15.jpg" style="width:440px;"/>
+<img class = "big-image" src="./image/vm15.jpg" style="width:440px;"/>
 
 * **Decompiled virtualized code:**
 
