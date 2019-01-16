@@ -21,25 +21,25 @@ You can find the KiwiVM documentation [on the website](https://document.kiwisec.
 
 ### 2. Install
 
->After executing the xcode file, the tool will automatically replace the default compiler of xcode, launch the xcode development tool, and automatically restore the original compiler after exiting.
+After executing the xcode file, the tool will automatically replace the default compiler of xcode, launch the xcode development tool, and automatically restore the original compiler after exiting.
 ![image](./image/vmp1.png)
 
 ### 3. Import header file
->Copy the header file in the include directory into your iOS project and refer to it as needed.
+Copy the header file in the include directory into your iOS project and refer to it as needed.
 
 ### 4. Add label KIWIVM
->For functions that require virtualization protection, add the KIWIVM tag to notify the compiler to virtualize compilation. 
+For functions that require virtualization protection, add the KIWIVM tag to notify the compiler to virtualize compilation. 
 ![image](./image/vmp2.png)
 
 ### 6. Build
->Execute the build in the xcode tool
+Execute the build in the xcode tool
 
 ### 7. Uninstall
->After exiting the xcode tool, KiwiVM's startup script automatically restores the original compiler
+After exiting the xcode tool, KiwiVM's startup script automatically restores the original compiler
 
 
 ### 8. Effect analysis
->This document takes an open source project as an example, links: [https://github.com/comyar/Sol](https://github.com/comyar/Sol)
+This document takes an open source project as an example, links: [https://github.com/comyar/Sol](https://github.com/comyar/Sol)
 
 * **Source Code:**
 
