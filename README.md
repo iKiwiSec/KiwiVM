@@ -58,4 +58,4 @@ This document takes an open source project as an example, links: [https://github
 ## Introduce
 Relying on the technical advantages of the team, KiwiSec focuses on next-generation technology and product development in mobile safety. After 8 years of accumulation in compiler security technology, and 3 years’ continuous research and development, the original KiwiVM virtual machine product has completely solved the problems of weak protection and poor compatibility inherent in traditional technologies such as hardening and obfuscation, providing a convenient and effective security solution.
 
-[Official website](https://en.kiwisec.com)
+[Learn more](https://en.kiwisec.com)
