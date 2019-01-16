@@ -47,7 +47,8 @@ This document takes an open source project as an example, links: [https://github
 
 * **Decompiling raw code:**
 
-![image](./image/vm15.jpg)
+
+<img src="./image/vm15.jpg" style="width:440px;max-width:100%"/>
 
 * **Decompiled virtualized code:**
 
