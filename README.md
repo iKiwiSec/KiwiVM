@@ -18,7 +18,7 @@ You can find the KiwiVM documentation [on the website](https://document.kiwisec.
 
 ### 1. Obtain
 
-> After purchasing the KiwiVM virtual machine, use the machine code generation tool provided by Kiwisec to extract the Key of the computer to be bound. Kiwisec will generate a unique KiwiVM toolkit based on Key, authorization time and enterprise information.
+After purchasing the KiwiVM virtual machine, use the machine code generation tool provided by Kiwisec to extract the Key of the computer to be bound. Kiwisec will generate a unique KiwiVM toolkit based on Key, authorization time and enterprise information.
 
 ### 2. Install
 
