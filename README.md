@@ -5,7 +5,7 @@ KiwiVM is a virtualization encryption software for mobile applications.
  
 It is based on the Clang compiler extension and virtualizes specified functions when the project is compiled. With the features of a custom CPU instruction, once the code is encrypted and never decrypted, the attacker cannot restore the code and analyze the core business logic. Helps companies customize encryption for communications, payment, algorithms, and core technologies to avoid financial loss due to security issues.
  
-[Learn how to use KiwiVM in your own project.](https://document.kiwisec.com/en/kiwiVM/)
+
 
 ## Features and Advantages
 * **Deep Encryption:** Custom CPU instructions, encrypted code will not be decrypted.
